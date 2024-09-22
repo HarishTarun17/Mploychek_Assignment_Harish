@@ -1,0 +1,38 @@
+.App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .login-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .login-form button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .record-list, .user-list {
+    margin-top: 20px;
+  }
+  
+  .record-list ul, .user-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .record-list li, .user-list li {
+    padding: 10px;
+    background-color: #f4f4f4;
+    margin-bottom: 5px;
+  }
+  
